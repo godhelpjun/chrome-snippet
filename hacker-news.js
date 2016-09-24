@@ -22,7 +22,7 @@
     
     function openStory(x) {
         // window.open(`https://news.ycombinator.com/item?id=${x.id}`, "_blank");
-        window.open(`https://react-hn.appspot.com/story/${x.id}`, "_blank");
+        window.open(`https://react-hn.appspot.com/#story/${x.id}`, "_blank");
         window.open(x.url, "_blank");
     }
 
