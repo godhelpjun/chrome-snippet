@@ -21,8 +21,14 @@
     }
     
     function openStory(x) {
-        // window.open(`https://news.ycombinator.com/item?id=${x.id}`, "_blank");
-        window.open(`https://react-hn.appspot.com/#story/${x.id}`, "_blank");
+        // https://github.com/tastejs/hacker-news-pwas
+
+        window.open(
+            // `https://news.ycombinator.com/item?id=${x.id}`
+            // `https://react-hn.appspot.com/#story/${x.id}`
+            // `https://next-news.now.sh/item?id=${x.id}`
+            `https://hn.kristoferbaxter.com/item/${x.id}`
+            , "_blank");
         window.open(x.url, "_blank");
     }
 
